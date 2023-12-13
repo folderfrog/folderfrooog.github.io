@@ -1,0 +1,177 @@
+body {margin: 0;}
+
+.top {
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    height: 100px;
+
+}
+
+.text_top {
+    position: relative;
+    align-self: center;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    left: 30px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 102px;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+}
+
+.textone {
+    align-self: center;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.texttwo {
+    align-self: center;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.three {
+ display: flex;
+ justify-content: center;
+ border: 5px solid black;
+ width: 600px;  
+ height: 300px;
+ text-align: center;
+ margin-top: 20px;
+}
+
+.textthree {
+    align-self: center;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    width: 600px;  
+    height: 300px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.textfour {
+    align-self: center;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-top: 102px;
+    background-color: blue;
+}
+
+.textdown {
+    position: relative;
+    align-self: center;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    left: 30px;
+}
+
+.img {
+    position: relative;
+    align-self: center;
+    right: 31px;
+}
+
+@media only screen and (max-width: 1240px) { .two, .three, .four {
+    
+    height: 165px;
+    width: 100%;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 1240px) { .textone, .texttwo, .textthree, .textfour {
+    color: #000;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    }
+}
+
+@media only screen and (max-width: 1240px) { .center {
+    margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 1240px) { .one {
+    
+    height: 165px;
+    width: 100%;
+    margin-left: 22px;
+    margin-right: 22px;
+    }
+}
+
+@media only screen and (max-width: 1240px) { .down {
+margin-top: 20%;
+    }
+}
